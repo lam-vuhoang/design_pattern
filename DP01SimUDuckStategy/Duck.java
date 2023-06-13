@@ -1,6 +1,6 @@
-package SimUDuck;
+package DP01SimUDuckStategy;
 
-import SimUDuck.Fly.FlyBehavior;
+import DP01SimUDuckStategy.Fly.FlyBehavior;
 
 public abstract class Duck
 {

@@ -1,21 +1,16 @@
-package SimUDuck;
+package DP01SimUDuckStategy;
 
-import SimUDuck.Fly.FlyWithWings;
-
-
+import DP01SimUDuckStategy.Fly.FlyWithWings;
 public class MallardDuck extends Duck {
-
-
-
     public MallardDuck() {
         flyBehavior = new FlyWithWings();
     }
 
     public void display() {
-        System.out.println("I'm a real Mallard duck!");
+        flyBehavior.fly();
     }
 
     public static void main(String[] args) {
-        flyBehavior.fly();
+        System.out.println("I'm Mallard Duck");
     }
 }

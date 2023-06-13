@@ -1,4 +1,4 @@
-package SimUDuck.Quack;
+package DP01SimUDuckStategy.Quack;
 
 public class Squeak implements QuackBehavior {
     public void quack() {
